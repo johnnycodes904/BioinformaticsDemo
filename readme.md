@@ -40,3 +40,6 @@ The script correctly identifies the split between "small molecule" drugs and spe
     The "Failures": The script correctly flagged Vancomycin and Cyclosporine as failing the Lipinski rules.
 
         Bio-Insight: This is a True Negative. Vancomycin is a massive molecule (~1449 Da) used for severe infections. Because it violates these rules, it cannot be absorbed by the gut and must be administered via IV injection. This demonstrates that "failing" the filter only predicts the administration method, not necessarily the drug's potency.
+
+
+PHASE 2 Docking WIP
